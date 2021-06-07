@@ -36,6 +36,10 @@
           </div>
         </div>
       </nav>
+
+    <div class="alert alert-danger" role="alert">
+      Une erreur servenue. Veuillez rafraichir la page ou rééssayer plus tard.
+    </div>
     <!--main -->
     <section class="container bg-color">
       <div class="row py-5">
@@ -49,7 +53,32 @@
         </div>
       </div>  
     </section>
-    
+    <!-- pop up News letter-Button trigger modal -->
+<button type="button" class="btn btn-primary justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Signup Newsletter
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-3 align-items-center">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Email</span>
+            <input type="text" class="form-control" placeholder="ex: lala@land.com" aria-label="Email" aria-describedby="basic-addon1">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-start">
+        <button type="button" class="btn btn-primary ">S'abonner</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- three column-->
     <section class="container">
       <div class="row py-4">
